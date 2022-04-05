@@ -16,7 +16,7 @@ jobs:
               node-version: '12'
 
         - name: Install graph-cli
-          run: yarn global add @graphprotocol/graph-cli@0.20.1
+          run: yarn global add @graphprotocol/graph-cli@0.23.2
 
         - name: Install dependencies
           run: yarn install
